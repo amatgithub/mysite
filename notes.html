@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="keyword" content="">
+	<title>Student Center|Notes</title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+        <header>
+        	<!-- This is container class we use it for all our divs -->
+        	<div class="container">
+        		<div class="brand">
+        			<h1><span class="highlight">Student Center</span></h1>
+
+        		</div>
+        		<!-- This is for  Main Navigation Bar  -->
+        		<nav>
+        			<!-- This is nav element not using div.nav for more schemantic purpose -->
+        			<ul>
+        				<li><a href="index.html">Home</a></li>
+        				<li><a href="inspire.html">Inspire</a></li>
+        				<li class="current"><a href="notes.html">Notes</a></li>
+        				<li><a href="trendz.html">Trendz</a></li>
+                <li><a href="edu.html">Edu+</a></li>
+                <li><a href="apply.html">Apply</a></li>
+        			</ul>
+        		</nav>
+        	</div>
+        </header>
+        <section id="showcase">
+            <div class="container">
+            	<h1>WelCome to <span class="highlight">Student Center</span></h1>
+            	<p><span class="highlight">Notes</span> from where you study</p>
+
+            </div>	
+        </section>
+        <section id="newsletter">
+        	<div class="container">
+        		<h1>Subscribe Us</h1>
+        		<form>
+        			<!-- Actually you need to mention the action,name,method attribute to process the data -->
+        			<input type="email" name="" placeholder="Enter your E-mail">
+        			<button type="submit" class="button_1">Subscribe</button> 
+        		</form>
+        	</div>
+        </section>
+        <section id="main_notes">
+           <div class="container">
+               <article id="main_col_notes">
+                <h1 id="page_title"> Get Notes from where you study</h1>
+                <h4>Get your class notes from here.<span class="highlight">We made your class notes more dynamic</span></h4>
+                <p>Choose notes by your college,class and subject</p>
+                <form>
+                      <label for="college" class="highlight">College:</label>
+                      <select name="college">
+                          <option value="Akshara">Akshara</option>
+                          <option value="BMR">BMR</option>
+                          <option value="Gurukrupa">Gururkrupa</option>
+                          <option value="indure">Indure</option>
+                          <option value="Kakatiya">Kakatiya</option>
+                          <option value="Masterminds">Masterminds</option>
+                          <option value="NRI">NRI</option>
+                          <option value="Prathibha">Prathibha</option>
+                          <option value="SRK">SRK</option>
+                          <option value="SMS">SMS</option>
+                       </select> 
+                       <label for="class" class="highlight">Class:</label> 
+                       <select name="class">
+                           <option value="+1">+1</option>
+                           <option value="+2">+2</option> 
+                           <option value="ug1">UG-1</option>
+                           <option value="ug2">UG-2</option>
+                           <option value="ug3">UG-3</option>
+                           <option value="btech1">B.Tech-1</option>
+                           <option value="btech2">B.Tech-2</option>
+                           <option value="btech3">B.Tech-3</option>
+                           <option value="btech4">B.Tech-4</option>
+                       </select> 
+                       <label for="subject" class="highlight">Subject:</label>
+                       <select name="subject">
+                           <option value="m1a">M-1A</option>
+                           <option value="m2a">M-2A</option>    
+                           <option value="m1b">M-1B</option>
+                           <option value="m2b">M-2B</option>
+                           <option value="phy1">PHY-1</option>
+                           <option value="phy2">PHY-2</option>
+                           <option value="che1">CHE-1</option>
+                           <option value="che2">CHE-2</option>
+                           <option value="bio1">BIO-1</option>
+                           <option value="bio2">BIO-2</option>
+                           <option value="zoo1">ZOO-1</option>
+                           <option value="zoo2">ZOO-2</option>
+                            </select>
+                       <input type="submit" name="view_notes" value="View Notes"> 
+                       <input type="submit" name="order_notes" value="Order Notes">    
+                      
+                </form>
+                <h1 class="highlight">Mathematics - Integration: </h1>
+                <img src="./images/maths_integration1.jpg" class="image_notes" style="opacity: .5">
+              <h4> Mathematics Notes for Class 12 </h4>
+              <p> Let f(x) be a function. Then, the collection of all its primitives is called the <b>indefinite
+integral</b> of f(x) and is denoted by ∫f(x)dx. Integration as inverse operation of differentiation.<br> If
+d/dx {φ(x)) = f(x), ∫f(x)dx = φ(x) + C, where C is called the constant of integration or arbitrary
+constant.</p><br>
+<p><b>Symbols:</b> f(x) → Integrand<br>
+f(x)dx → Element of integration<br>
+∫→ Sign of integral<br>
+φ(x) → Anti-derivative or primitive or integral of function f(x)<br>
+The process of finding functions whose derivative is given, is called<i> anti-differentiation</i> or
+<i>integration</i></p>
+
+                </article>
+               <aside id="special_thanks_notes">
+                   <h1><span class="highlight">Student Center.com</span> thanks each and every college management and staff who made this possible.</h1>
+
+                   <p>We <span class="highlight">Student Center</span>thanking you all directly and behalf of our viewers.We promise you that we make your class notes more effective and more useful.</p>
+               </aside>
+           </div> 
+
+        </section>
+       
+        <footer>
+        	<p><small>&copy; 2018</small> Student Center</p>
+        </footer>
+</body>
+</html>
